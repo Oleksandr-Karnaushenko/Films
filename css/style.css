@@ -141,3 +141,13 @@ main .main .films #text img{
     right: 5%;
     top: 15%;
 }
+main .main .info img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0 1%;
+    margin-top: 25px;
+    width: 100%;
+    height: 400px;
+}
