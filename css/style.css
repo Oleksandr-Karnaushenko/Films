@@ -35,6 +35,9 @@ header .my_nav .btn img{
     height: 20px;
     width: 20px;
 }
+.border{
+	border-radius: 5px !important;
+}
 body .my_btn{
     background-color: #0aaee4;
     border-radius: 5px;
