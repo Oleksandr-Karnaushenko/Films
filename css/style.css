@@ -131,6 +131,9 @@ main .main .films h5{
     color: black;
     text-transform: uppercase;
 }
+main .main .films #description .iii{
+	width: 50px;
+}
 main .main .films #description .iii .post-img{
     background-repeat: no-repeat;
     background-size: contain;
