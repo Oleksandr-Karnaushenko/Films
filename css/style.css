@@ -3,10 +3,15 @@
     min-width: 320px;
     font-size: 16px;
 }
+header{
+    height: 600px;
+}
 header .my_nav{
     position: absolute;
     z-index: 999;
     padding: 0 5% 0 5%;
+    height: 100px;
+    width: 100%;
 }
 header .my_nav .collapse1{
     position: relative;
@@ -18,7 +23,6 @@ header .my_nav a{
     font-size: 16px;
 }
 header .my_nav .my_nbr{
-    padding-top: 3%;
     font-size: 24px;
     font-weight: bold;
 }
@@ -26,9 +30,9 @@ header .my_nav .btn img{
     height: 20px;
     width: 20px;
 }
-header .my_nav .my_btn{
+body .my_btn{
     background-color: #0aaee4;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #fff;
 }
 header .my_carousel{
@@ -47,6 +51,8 @@ header .carousel-caption{
     text-align: left;
     font-size: 16px;
     word-spacing: 10px;
+    width: 100%;
+    margin-left: -5%;
 }
 header .carousel-caption h1{
     text-transform: uppercase;
@@ -54,4 +60,47 @@ header .carousel-caption h1{
 header .carousel-caption img{
     height: 20px;
     width: 200px;
+}
+header .btn-group{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    
+}
+header .my_carousel .btn-group .btn{
+    height: 40px;
+    border-radius: 5px;
+    z-index: 999;
+    margin-left: 10px;
+    color: white;
+}
+header .my_carousel .btn-group .btn-outline-light:hover{
+    color: black;
+}
+header .btn-group .btn img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main .main{
+    padding: 50px 5% 0 5%;
+    color: #0aaee4;
+
+}
+main .main .nav-tabs .nav-link.active{
+    font-weight: bold;
+    color: #0aaee4;
+    border: 0px;
+    border-bottom: 2px solid #0aaee4;
+}
+main .main .nav-tabs .nav-link:focus{
+    font-weight: bold;
+    color: #0aaee4;
+    border: 0px;
+    border-bottom: 2px solid #0aaee4;
+}
+main .main .nav-tabs .dropdown-item:hover{
+    font-weight: bold;
+    background-color: #0aaee4;
 }
