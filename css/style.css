@@ -10,13 +10,8 @@ header .my_nav{
     position: absolute;
     z-index: 999;
     padding: 0 5% 0 5%;
-<<<<<<< HEAD
-    height: 100px;
-    width: 100%;
-=======
 	height: 100px;
 	width: 100%;
->>>>>>> bf789081814ece82b66d3ae29c73206cc3fc764d
 }
 header .my_nav .collapse1{
     position: relative;
@@ -74,7 +69,7 @@ header .btn-group{
 }
 header .my_carousel .btn-group .btn{
     height: 40px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     z-index: 999;
     margin-left: 10px;
     color: white;
@@ -86,7 +81,6 @@ header .btn-group .btn img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 main .main{
     padding: 50px 5% 0 5%;
@@ -108,4 +102,39 @@ main .main .nav-tabs .nav-link:focus{
 main .main .nav-tabs .dropdown-item:hover{
     font-weight: bold;
     background-color: #0aaee4;
+}
+
+main .main .films img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0 5%;
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+}
+main .main .films #text{
+    position: relative;
+    margin: 0 5%;
+    text-align: left;
+    background-color: white;
+    width: 90%;
+    padding: 10% 5%;
+    font-size: 16px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+main .main .films h5{
+    color: black;
+    text-transform: uppercase;
+}
+main .main .films #text img{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    width: 60px;
+    right: 5%;
+    top: 15%;
 }
