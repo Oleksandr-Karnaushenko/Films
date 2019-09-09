@@ -119,6 +119,7 @@ main .main .post-image{
 main .main .films #description{
     background-color: white;
     width: 100%;
+    height: 120px;
     margin-left: 0;
     font-size: 16px;
     border-bottom-left-radius: 12px;
@@ -131,10 +132,10 @@ main .main .films h5{
     color: black;
     text-transform: uppercase;
 }
-main .main .films #description .iii{
+main .main .films #description .rat{
 	width: 50px;
 }
-main .main .films #description .iii .post-img{
+main .main .films #description .rat .post-img{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -153,4 +154,51 @@ main .main .info img{
     margin-top: 25px;
     width: 100%;
     height: 400px;
+}
+main .main .info h3{
+    color: #fff;
+    padding: 7% 25% 1% 25%;
+}
+main .main .spin{
+    margin-top: 40px;
+}
+
+
+
+footer{
+    background: #fff;
+    height: 150px;
+    color: #0aaee4;
+    margin-top: 50px;
+}
+footer .footer{
+    padding: 30px 5% 0 5%;
+}
+footer .footer a{
+    color: #a7aaab;
+}
+footer .footer .f_nav{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+footer .footer .logo{
+    text-transform: uppercase;
+    text-align: center;
+}
+footer .footer .logo span{
+    font-size: 12px;
+    color: #a7aaab;
+}
+footer .footer .icons{
+    text-align: right;
+    padding-top: 10px;
+}
+footer .footer .icons .icon{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: 25px;
+    padding-left: 30px;
 }
