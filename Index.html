@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Films</title>
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +15,7 @@
 
     <body style="background-color: #f5f6f6">
         <header>
-            <nav class="my_nav navbar navbar-expand-lg">
+            <nav class="my_nav navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand my_nbr" href="#">MOVIE</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +45,7 @@
                 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/header1.png" alt="">
+                        <div class="post-image-header" style="background-image:url('img/header1.png')"></div>                       
                         <div class="carousel-caption d-none d-md-block">
                             <h1>The Jungle Book</h1>
                             <p>Adventure Drama Family Fantasy | 106m</p>
@@ -250,8 +252,10 @@
                 <div class="row no-gutters info">
                     <div class="col-12 px-1">
                         <div class="post-image" style="background-image:url('img/information.png')">
-                            <h3>Receive information on the latest hit movies straight to your inbox.</h3>
-                            <button type="button" class="btn my_btn">Subscribe!</button>
+                            <div id="dark">
+                                <h3>Receive information on the latest hit movies straight to your inbox.</h3>
+                                <button type="button" class="btn my_btn">Subscribe!</button>
+                            </div>                       
                         </div>
                     </div>
                 </div>
