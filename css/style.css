@@ -47,7 +47,6 @@ header .carousel-indicators .active{
 }
 header .carousel-inner .post-image-header{
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     width: 100%;
     height: 600px;
